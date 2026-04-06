@@ -122,3 +122,13 @@ The kiosk automatically refreshes Chromium every night at **midnight** to pick u
 **Control panel unreachable**
 - The kiosk must be fully booted and running before the panel is accessible
 - Check your firewall — ports `8080` and `8081` must be open on the kiosk machine
+
+## Security
+- Please note that the control panel for the kiosk runs on your local network.
+- This means anyone with the IP can access the control panel and replace the Google Slides link with their own.
+- Be mindful to keep your Linux machine's IP only to yourself and trusted staff/team.
+- Future updates will include enhanced security, such as a code or passkey.
+
+## Credits
+- This system's architecture and code was designed by Anton Bloch.
+- Graphical elements for UI designed by Claude Code.
